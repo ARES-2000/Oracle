@@ -1,0 +1,44 @@
+body{
+   margin: 0%;
+   padding: 0%;
+}
+.css-main-container{
+   display: flex;
+   flex-direction: start;
+   justify-content: start;
+   align-items: start;
+   flex-wrap: wrap;
+}
+.css-option-container{
+   width: auto;
+   height: 42.45rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   padding: 0.5rem;
+   border-right: solid grey 0.01rem;
+   border-bottom: solid grey 0.01rem;
+}
+.css-drop-down{
+   width: 2.9rem;
+   height: 3rem;
+   background-color: rgb(255, 255, 255);
+   border: solid grey 0.01rem;
+   border-radius: 0.4rem;
+}
+.css-oracle-answer{
+   color: rgb(30, 30, 30);
+   padding: 0.8rem;
+   padding-bottom: 0rem;
+   border: solid grey 0.01rem;
+   border-left: none;
+   height: 42.60rem;
+   width: max-content;
+   flex-shrink: 1;
+   flex-grow: 1;
+   font-family:Arial, Helvetica, sans-serif;
+}
+.css-request-button{
+   background-color: white;
+   border: grey solid 0.01rem;
+}
